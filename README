@@ -1,0 +1,12 @@
+A Virtual Machine using an emulated 6502.
+This is a personal educational project that will serve as the foundation for understanding the relationship between software and hardware. This project will include
+- an emulated 6502
+- emulated bus
+- virtual devices that will connect to this bus
+- virtual memory as a device
+- pre-made video device
+- pre-made keyboard capture device
+- support for custom devices and a simple interface for such
+- a basic OS to interact with the VM
+
+As this project is built upon it will eventually become a full-blown system and include a C library for OS programming. Any 6502 CXX should be capable of compiling ELF binaries. OS will eventually be UNIX based.
